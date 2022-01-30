@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:context=".Devices.Bbox.Bbox01602Activity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_light_background"
+        android:src="@drawable/bbox00401"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_datetime" />
+
+    <TextView
+        android:id="@+id/textView_l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:text="TV"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView_ugstr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="145dp"
+        android:text="TV"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView_q"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="185dp"
+        android:text="TV"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/guideline8"
+        app:layout_constraintStart_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView_datetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_qm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="TV"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/guideline8"
+        app:layout_constraintStart_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toBottomOf="@+id/textView_q" />
+
+    <TextView
+        android:id="@+id/textView_z1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:fontFamily="@font/font_znaki"
+        android:text="@string/LIMIT_LEFT"
+        android:textAlignment="viewStart"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView_z2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:fontFamily="@font/font_znaki"
+        android:text="@string/LIMIT_RIGHT"
+        android:textAlignment="viewEnd"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView_r"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:text="TV"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/textView_z2"
+        app:layout_constraintStart_toEndOf="@+id/textView_z1"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:text="TV"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:max="120"
+        android:progress="10"
+        android:progressDrawable="@color/colorCardFont"
+        android:scrollbars="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_z1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.02189781" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.32" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.47" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.58" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.77" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.87" />
+
+    <TextView
+        android:id="@+id/textView_HOOK1_UP"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/font_znaki"
+        android:gravity="center"
+        android:text="@string/HOOK1_UP"
+        android:textColor="@color/colorZnak"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView_BOOM_UP"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+
+    <TextView
+        android:id="@+id/textView_HOOK1_DOWN"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/font_znaki"
+        android:gravity="center"
+        android:text="@string/HOOK1_DOWN"
+        android:textColor="@color/colorZnak"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView_BOOM_DOWN"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_HOOK1_UP" />
+
+    <TextView
+        android:id="@+id/textView_BOOM_UP"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/font_znaki"
+        android:gravity="center"
+        android:text="@string/BOOM_UP"
+        android:textColor="@color/colorZnak"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView_TEL_UP"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/textView_HOOK1_UP"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+
+    <TextView
+        android:id="@+id/textView_BOOM_DOWN"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/font_znaki"
+        android:gravity="center"
+        android:text="@string/BOOM_DOWN"
+        android:textColor="@color/colorZnak"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView_TEL_DOWN"
+        app:layout_constraintStart_toEndOf="@+id/textView_HOOK1_DOWN"
+        app:layout_constraintTop_toBottomOf="@+id/textView_BOOM_UP" />
+
+    <TextView
+        android:id="@+id/textView_TEL_UP"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/font_znaki"
+        android:gravity="center"
+        android:text="@string/TEL_UP"
+        android:textColor="@color/colorZnak"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView_TURN_LEFT"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/textView_BOOM_UP"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+
+    <TextView
+        android:id="@+id/textView_TEL_DOWN"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/font_znaki"
+        android:gravity="center"
+        android:text="@string/TEL_DOWN"
+        android:textColor="@color/colorZnak"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView_TURN_RIGHT"
+        app:layout_constraintStart_toEndOf="@+id/textView_BOOM_DOWN"
+        app:layout_constraintTop_toBottomOf="@+id/textView_TEL_UP" />
+
+    <TextView
+        android:id="@+id/textView_TURN_LEFT"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/font_znaki"
+        android:gravity="center"
+        android:text="@string/TURN_LEFT"
+        android:textColor="@color/colorZnak"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/textView_TEL_UP"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+
+    <TextView
+        android:id="@+id/textView_TURN_RIGHT"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/font_znaki"
+        android:gravity="center"
+        android:text="@string/TURN_RIGHT"
+        android:textColor="@color/colorZnak"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView_TEL_DOWN"
+        app:layout_constraintTop_toBottomOf="@+id/textView_TURN_LEFT" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/font_znaki"
+        android:text="@string/HEIGHT_MAX"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/textView_datetime" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.97" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:rotation="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_HOOK1_DOWN"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/kran_vid_up" />
+
+    <TextView
+        android:id="@+id/textView_peregruz"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="Перегрузка"
+        android:textColor="@color/colorZnak"
+        app:layout_constraintBottom_toTopOf="@+id/textView_lebedka"
+        app:layout_constraintEnd_toStartOf="@+id/textView_nastroika"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toBottomOf="@+id/textView_TEL_DOWN" />
+
+    <TextView
+        android:id="@+id/textView_kruk"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="Крюк"
+        android:textColor="@color/colorZnak"
+        app:layout_constraintBottom_toTopOf="@+id/button_sms"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView_otkaz_datchika"
+        app:layout_constraintTop_toBottomOf="@+id/textView_zap_regim" />
+
+    <TextView
+        android:id="@+id/textView_lebedka"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="Лебедка"
+        android:textColor="@color/colorZnak"
+        app:layout_constraintBottom_toTopOf="@+id/textView_zap_regim"
+        app:layout_constraintEnd_toStartOf="@+id/textView_operator"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView_peregruz" />
+
+    <TextView
+        android:id="@+id/textView_min_vilet"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="Мин."
+        android:textColor="@color/colorCardFont"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_TEL_DOWN"
+        app:layout_constraintEnd_toEndOf="@+id/textView_TEL_DOWN"
+        app:layout_constraintStart_toEndOf="@+id/textView_BOOM_DOWN"
+        app:layout_constraintTop_toTopOf="@+id/textView_TEL_DOWN" />
+
+    <TextView
+        android:id="@+id/textView_max_vilet"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="Макс."
+        android:textColor="@color/colorCardFont"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_TEL_UP"
+        app:layout_constraintEnd_toEndOf="@+id/textView_TEL_UP"
+        app:layout_constraintStart_toEndOf="@+id/textView_BOOM_UP"
+        app:layout_constraintTop_toTopOf="@+id/textView_TEL_UP" />
+
+    <TextView
+        android:id="@+id/textView_zap_regim"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="Запрещенный режим"
+        android:textColor="@color/colorZnak"
+        app:layout_constraintBottom_toTopOf="@+id/textView_otkaz_datchika"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toBottomOf="@+id/textView_operator" />
+
+    <TextView
+        android:id="@+id/textView_otkaz_datchika"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="Отказ датчика"
+        android:textColor="@color/colorZnak"
+        app:layout_constraintBottom_toTopOf="@+id/button_sms"
+        app:layout_constraintEnd_toStartOf="@+id/textView_kruk"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toBottomOf="@+id/textView_zap_regim" />
+
+    <TextView
+        android:id="@+id/textView_operator"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="Оператор"
+        android:textColor="@color/colorZnak"
+        app:layout_constraintBottom_toTopOf="@+id/textView_zap_regim"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView_lebedka"
+        app:layout_constraintTop_toBottomOf="@+id/textView_nastroika" />
+
+    <TextView
+        android:id="@+id/textView_nastroika"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="Настройка"
+        android:textColor="@color/colorZnak"
+        app:layout_constraintBottom_toTopOf="@+id/textView_operator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView_peregruz"
+        app:layout_constraintTop_toBottomOf="@+id/textView_TURN_RIGHT" />
+
+    <Button
+        android:id="@+id/button_sms"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Сообщение"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toBottomOf="@+id/textView_kruk" />
+
+    <TextView
+        android:id="@+id/textView_ugol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_HOOK1_DOWN" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

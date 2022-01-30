@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Rezonans</string>
+
+    //значки в шрифте prs.ttf
+    <string name="HEIGHT_MAX">\uf600</string>
+    <string name="LIMIT_LEFT">\uf601</string>
+    <string name="LIMIT_RIGHT">\uf602</string>
+    <string name="HOOK1_UP">\uf603</string>
+    <string name="HOOK1_DOWN">\uf604</string>
+    <string name="BOOM_UP">\uf605</string>
+    <string name="BOOM_DOWN">\uf606</string>
+    <string name="TEL_UP">\uf607</string>
+    <string name="TEL_DOWN">\uf608</string>
+    <string name="TURN_LEFT">\uf609</string>
+    <string name="TURN_RIGHT">\uf60a</string>
+</resources>

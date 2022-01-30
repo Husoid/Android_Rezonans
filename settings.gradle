@@ -1,0 +1,3 @@
+include ':rezios'
+include ':app'
+rootProject.name='Rezonans'
