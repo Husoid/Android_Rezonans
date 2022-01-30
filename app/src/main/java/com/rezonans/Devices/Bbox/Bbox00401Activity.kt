@@ -90,8 +90,11 @@ class Bbox00401Activity : AppCompatActivity() {
         //Блокировка приближения к ЛЭП
         //JO_tpchr.getDouble("lep")
         //Блокировка по отказу датчика
-        if (JO_tpchr.getDouble("dats") > 0) {textView_zap_regim.setTextColor(resources.getColor(com.rezonans.R.color.colorLogo))} else {textView_zap_regim.setTextColor(resources.getColor(
-            com.rezonans.R.color.colorZnak))}
+        if (JO_tpchr.getDouble("dats") > 0) {
+            textView_zap_regim.setTextColor(resources.getColor(com.rezonans.R.color.colorLogo))
+        } else {
+            textView_zap_regim.setTextColor(resources.getColor(com.rezonans.R.color.colorZnak))
+        }
         //Нажатие кнопки обхода блокировки на блоке индикации
         if (JO_tpchr.getDouble("operatorintervent") > 0) {textView_operator.setTextColor(resources.getColor(
             com.rezonans.R.color.colorLogo))} else {textView_operator.setTextColor(resources.getColor(
